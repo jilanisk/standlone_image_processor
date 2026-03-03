@@ -59,10 +59,15 @@ mbstring
 Web server (Apache / Nginx / XAMPP / PHP built-in server)
 
 ⚙️ Installation
+
 1️⃣ Clone Repository
+
 git clone https://github.com/your-username/Standalone_image_processor.git
+
 cd Standalone_image_processor
+
 2️⃣ Extract Vendor Files
+
 
 After cloning, extract:
 
@@ -73,29 +78,31 @@ This will create:
 /vendor
 
 ⚠️ Mandatory step
-The project depends on:
 
-PhpOffice
-
-PhpSpreadsheet
+The project depends on: PhpOffice,PhpSpreadsheet
 
 3️⃣ Set Folder Permissions
 
 Make sure these folders are writable:
 
 uploads/
+
 uploadFolder/
 
 Linux/Mac:
 
 chmod -R 775 uploads uploadFolder
+
 4️⃣ Run Application
+
 Option A – PHP Built-in Server
+
 php -S localhost:8000
 
 Open in browser:
 
 http://localhost:8000
+
 Option B – XAMPP / Apache
 
 Place project inside:
@@ -108,12 +115,14 @@ http://localhost/Standalone_image_processor
 📊 Excel Format
 
 Your Excel file must contain exactly 2 columns:
+  
+   imagePath	skewId
 
-imagePath	skewId
-/images/a.jpg	SKU1001
-/images/b.jpg	SKU1001
-/images/c.jpg	SKU2002
-⚠️ Important
+   
+   /images/a.jpg	SKU1001
+   /images/b.jpg	SKU1001
+   /images/c.jpg	SKU2002
+   ⚠️ Important
 
 Column order must match.
 
