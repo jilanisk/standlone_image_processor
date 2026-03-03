@@ -28,14 +28,22 @@ No framework required. Simple. Fast. Production-ready.
 ✅ Composer-based dependency handling
 
 📂 Project Structure
-Standalone_image_processor/
+ Standalone_image_processor/
+ 
 │
+ 
 ├── uploads/              # Uploaded Excel files
+
 ├── uploadFolder/         # Generated skewId folders
+
 ├── vendor/               # Extracted vendor files
+
 ├── vendor.zip            # Vendor archive (must extract)
+
 ├── index.php
+
 └── README.md
+
 🛠 Requirements
 
 PHP 8.0+
