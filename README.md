@@ -1,12 +1,8 @@
-:
+ <img width="1024" height="309" alt="github banner" src="https://github.com/user-attachments/assets/5ea24d2c-ce77-4fda-8907-1f659031536b" />
+
 
 📦 Standalone Image Processor
-
-
-
-
-
-
+ 
 A lightweight standalone PHP utility that processes an Excel file containing image paths and skewId, then automatically:
 
 📁 Creates skewId-based folders
@@ -192,5 +188,17 @@ Add progress bar for large datasets
 MIT License – Free to use and modify.
 
 👨‍💻 Author
+Jilani Shaik
+
+
+**Applcation Screenshots**
+
+<img width="1919" height="904" alt="Screenshot 2026-03-03 130523" src="https://github.com/user-attachments/assets/e8d322d9-dfd2-471b-9e76-44adbcb4f38f" />
+
+<img width="1919" height="722" alt="Screenshot 2026-03-03 130549" src="https://github.com/user-attachments/assets/9c570b85-5b4e-40b7-a87c-ffa1e38c3246" />
+
+<img width="1719" height="864" alt="Screenshot 2026-03-03 131032" src="https://github.com/user-attachments/assets/ebd00fea-5e9a-4f39-abc0-5ca6959416b0" />
+
+
 
 Standalone utility built for bulk image organization automation.
